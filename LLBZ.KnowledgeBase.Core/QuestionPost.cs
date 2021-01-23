@@ -10,5 +10,6 @@ namespace LLBZ.KnowledgeBase.Core
 
         //TODO: consider if this is really necessary from a DDD point of view
         public IEnumerable<AnswerPost> Answers { get; set; }
+        public IEnumerable<Tag> Tags { get; set; }
     }
 }
