@@ -11,6 +11,7 @@ namespace LLBZ.KnowledgeBase.Core
         public User Author { get; set; }
         //public IEnumerable<User> Contributors { get; set; }
 
+        public Metrics Metrics { get; set; }
 
         public DateTime CreationDate { get; set; }
         public DateTime ModificationDate { get; set; }
