@@ -6,7 +6,7 @@ namespace LLBZ.KnowledgeBase.Core
 {
     public class Metrics
     {
-        public IList<User> Upvotes { get; set; }
-        public IList<User> Downvotes { get; set; }
+        public IList<User> Upvotes { get; }
+        public IList<User> Downvotes { get; }
     }
 }
